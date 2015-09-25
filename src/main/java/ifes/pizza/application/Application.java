@@ -5,7 +5,7 @@
  */
 package ifes.pizza.application;
 
-import ifes.pizza.application.util.FabricaPizza;
+import ifes.pizza.util.FabricaPizza;
 import ifes.pizza.cdp.Pizza;
 
 /**

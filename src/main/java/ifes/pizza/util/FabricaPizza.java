@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ifes.pizza.application.util;
+package ifes.pizza.util;
 
 import ifes.pizza.cdp.Pizza;
 
