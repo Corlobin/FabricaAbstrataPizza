@@ -10,5 +10,8 @@ package ifes.pizza.cdp;
  * @author 20122bsi0387
  */
 public class Molho {
+
+    public Molho() {
+    }
     
 }

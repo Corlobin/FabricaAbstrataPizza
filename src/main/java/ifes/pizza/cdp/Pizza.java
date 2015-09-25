@@ -59,6 +59,11 @@ public class Pizza {
     public void setRecheio(Recheio recheio) {
         this.recheio = recheio;
     }
+
+    @Override
+    public String toString() {
+        return "(Massa: "+ this.massa + " Molho: " + this.molho + " Recheio: " + this.recheio + ")";
+    }
     
     
     

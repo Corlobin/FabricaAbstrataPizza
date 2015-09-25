@@ -5,12 +5,8 @@
  */
 package ifes.pizza.application;
 
-import ifes.pizza.application.util.Fabrica;
-import ifes.pizza.application.util.FabricaPizzaFrangoCatupiry;
-import ifes.pizza.cdp.Massa;
-import ifes.pizza.cdp.Molho;
+import ifes.pizza.application.util.FabricaPizza;
 import ifes.pizza.cdp.Pizza;
-import ifes.pizza.cdp.Recheio;
 
 /**
  *
@@ -19,8 +15,10 @@ import ifes.pizza.cdp.Recheio;
  */
 public class Application {
     public static void main(String args[]) {
-      Fabrica fabrica = new FabricaPizzaFrangoCatupiry();
-      
+        Pizza pizza = FabricaPizza.criarPizza("zzz");
+        System.out.println(""+pizza);
+        pizza = FabricaPizza.criarPizza("FrangoCatupiry");
+        System.out.println(""+pizza);
       
     }
 }
